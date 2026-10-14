@@ -1,12 +1,13 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-
-# 这里填写你的机器人 Token
 import os
+from dotenv import load_dotenv
+
+# 读取 .env 文件
+load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
-
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = """
