@@ -3,7 +3,9 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 
 # 这里填写你的机器人 Token
-TOKEN = "8809427488:AAHFJodnpkbEvLKJ-JnAE_QHCrDZpA6--Vs"
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
