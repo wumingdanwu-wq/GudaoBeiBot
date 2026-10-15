@@ -199,7 +199,8 @@ def main():
 
     print("古道北助手启动成功")
 
-    app.run_polling()
+    # 将原来的 app.run_polling() 替换为：
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
 if __name__ == "__main__":
