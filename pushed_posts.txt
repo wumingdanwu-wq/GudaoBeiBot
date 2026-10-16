@@ -12,3 +12,5 @@ https://zidane.us.ci/docs/github/
 https://zidane.us.ci/docs/v2raya/
 https://zidane.us.ci/docs/cdn-ip/
 https://zidane.us.ci/docs/hugo-git/
+https://zidane.us.ci/posts/v2raya-zhe-teng-ji-lu/
+https://zidane.us.ci/docs/10-%E8%99%9A%E6%8B%9F%E8%B5%84%E4%BA%A7%E5%AD%A6%E4%B9%A0%E8%B4%A6%E6%9C%AC/
